@@ -1,3 +1,4 @@
+require('prismjs/plugins/line-numbers/prism-line-numbers.css')
 import React from 'react'
 import { Link } from 'gatsby'
 
