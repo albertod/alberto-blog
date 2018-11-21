@@ -3,7 +3,7 @@ title: LRU Cache
 date: '2018-11-18T15:13:47Z'
 ---
 
-While practicing (and honestly remembering) some fundamentals computer science concepts, I came across the problem of designing an LRU cache. For those who don’t know what and LRU cache is, it is incomplete terms a Least Recently Used cache. What this means is that the cache will use a strategy if its space of entries its full and it needs to add a new entry it will replace the oldest used entry (oldest meaning the entry that has been in the cache for more time without being read or push into the cache for the longest time).
+While practicing (and honestly remembering) some fundamentals computer science concepts, I came across the problem of designing an LRU cache. For those who don’t know what and LRU cache is, it is in complete terms a Least Recently Used cache. What this means is that the cache will use the following strategy: if its space of entries its full and it needs to add a new entry it will replace the oldest used entry (oldest meaning the entry that has been in the cache for more time without being read or pushed into the cache for the longest time).
 
 We shouldn’t have a hard time with the simple scenario where we have enough space to hold all the possible options in our problem. Simply you can think of a Map data structure. But what happens when our problem scenario have a space of options very big, even unlimited different options? Well, here if we are talking about a single threaded problem setup an LRU cache will be our best option.
 
